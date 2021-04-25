@@ -9,7 +9,7 @@
   },
   "config": {
     "commitizen": {
-      "path": "./node_modules/cz-conventional-changelog"
+      "path": "./node_modules/cz-customizable"
     }
   },
   "lint-staged": {
@@ -25,9 +25,12 @@
     "vuex": "^4.0.0"
   },
   "devDependencies": {
+    "@commitlint/cli": "^12.1.1",
+    "@commitlint/config-conventional": "^12.1.1",
     "@vitejs/plugin-vue": "^1.2.1",
     "@vue/compiler-sfc": "^3.0.5",
     "cz-conventional-changelog": "^3.3.0",
+    "cz-customizable": "^6.3.0",
     "eslint": "^7.2.0",
     "eslint-config-airbnb-base": "^14.2.1",
     "eslint-config-prettier": "^8.3.0",
